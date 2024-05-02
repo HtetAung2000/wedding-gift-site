@@ -1,0 +1,549 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Workbench&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&family=Workbench&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sevillana&family=Workbench&display=swap');
+
+.App {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.album {
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+.App-header {
+  background-color: #e4f1ee;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.main-photo {
+  position: relative;
+  z-index: -1;
+}
+
+.main-photo img {
+  width: 100%;
+  height: auto;
+}
+
+.main-photo .husband {
+  position: absolute;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 8rem;
+  margin-left: 15%;
+  margin-top: 7%;
+  color: #063c49;
+}
+
+.main-photo .wife {
+  position: absolute;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 8rem;
+  margin-left: 55%;
+  margin-top: 40%;
+  color: #063c49;
+}
+
+.main-photo .heartImage {
+  position: absolute;
+  width: 5rem;
+  color: #063c49;
+  margin-left: 50%;
+  margin-top: 25%;
+}
+
+.first-date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome {
+  display: block;
+  margin-right: 50%;
+  font-family: "Caveat";
+  font-size: 50px;
+  text-shadow: 1px 1px #092a28;
+  color: #54a7a2;
+}
+
+.thank {
+  text-align: center;
+  font-family: "Caveat";
+  font-size: 50px;
+  text-shadow: 1px 1px #092a28;
+  color: #063c49;
+}
+
+.powered {
+  text-align: center;
+  font-size: 16px;
+}
+
+.fst_anni {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.fst_anni p {
+  margin-right: 10%;
+  margin-top: 5%;
+}
+
+.heart_cloud {
+  width: 15%;
+}
+
+.love_bird {
+  width: 5%;
+}
+
+.fst_anni_img {
+  width: 50%;
+  margin-top: 10%;
+  margin-right: 2%;
+}
+
+.first_icon {
+  position: absolute;
+  width: 5%;
+  height: auto;
+}
+
+.final_year {
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+}
+
+.intern_photo {
+  position: absolute;
+  width: 5%;
+  height: auto;
+  margin-left: 85%;
+  margin-top: 10%;
+}
+
+.final_year p {
+  margin-top: 5%;
+  padding: 1%;
+}
+
+.intern_img {
+  width: 50%;
+  margin-top: 10%;
+  margin-left: 2%;
+}
+
+.internship {
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+}
+
+.internship p {
+  padding: 1%;
+  margin-top: 5%;
+}
+
+.final_img {
+  width: 50%;
+  margin-top: 10%;
+  margin-right: 2%;
+}
+
+.final_photo {
+  position: absolute;
+  margin-left: 20%;
+  margin-top: 8%;
+  width: 5%;
+  height: auto;
+}
+
+.mgk_img {
+  width: 50%;
+  margin-top: 10%;
+  margin-left: 2%;
+}
+
+.mgk_home {
+  position: absolute;
+  width: 5%;
+  height: auto;
+  margin-left: 92%;
+  margin-top: 5%;
+}
+
+.mogok p {
+  padding: 1%;
+  margin-top: 5%;
+}
+
+.mogok {
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+}
+
+.propose {
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+}
+
+.propose p {
+  padding: 1%;
+  padding-left: 5%;
+  margin-top: 5%;
+}
+
+.pro_img {
+  width: 50%;
+  padding-left: 10%;
+  margin-top: 10%;
+}
+
+.propose_photo {
+  position: absolute;
+  margin-left: 30%;
+  margin-top: 10%;
+  width: 5%;
+  height: auto;
+}
+
+.year {
+  display: flex;
+}
+
+.Year0 {
+  position: relative;
+}
+
+.year_start {
+  /* position: absolute; */
+  font-family: "Caveat";
+  font-size: 3rem;
+  margin-top: 2%;
+  margin-left: 20%;
+  text-shadow: 1px 2px gray;
+  font-style: bold;
+  color: #063c49;
+}
+
+.year_end {
+  /* position: absolute; */
+  font-family: "Caveat";
+  font-size: 3rem;
+  margin-top: 2%;
+  margin-left: 20%;
+  text-shadow: 1px 2px gray;
+  color: #063c49;
+}
+
+.first-date img {
+  width: 40%;
+  padding: 10px 10px;
+  height: auto;
+}
+
+.letseeP {
+  font-family: "pacifico";
+  margin-right: 35%;
+  color: #063c49;
+  text-shadow: 1px 1px #092a28;
+  color: #54a7a2;
+}
+
+.letsee img {
+  width: 50%;
+  margin-left: 50%;
+  margin-top: -5%;
+}
+
+.wedding {
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.wedding h1 {
+  font-size: 1rem;
+  color: #063c49;
+  padding-left: 30px;
+  padding-right: 5px;
+  margin-top: 15%;
+}
+
+.wedding img {
+  width: 40%;
+  margin-left: 10%;
+}
+
+.end {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.ending_img {
+  width: 80%;
+}
+
+.kissing img {
+  width: 95%;
+}
+
+@media screen and (max-width: 1000px) {
+  .main-photo .husband {
+    font-size: 4rem;
+  }
+
+  .main-photo .wife {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .wedding h1 {
+    font-size: 1.7rem;
+    padding-left: 30px;
+    padding-right: 5px;
+    margin-top: 15%;
+  }
+
+  .year_start {
+    font-size: 2.5rem;
+    margin-left: 13%;
+  }
+  
+  .year_end {
+    font-size: 2.5rem;
+    margin-left: 15%;
+  }
+  
+  .final_photo {
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 10%;
+    width: 5%;
+    height: auto;
+  }
+
+  .mgk_home {
+    margin-top: 10%;
+  }
+
+
+  .first_icon {
+    margin-top: 10%;
+    margin-right: 55%;
+  }
+
+  .letseeP {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 431px) {
+  .main-photo .wife {
+    font-size: 2rem;
+  }
+
+  .final_photo {
+    margin-left: 40%;
+    margin-top: 20%;
+  }
+
+  .intern_photo {
+    margin-top: 16%;
+  }
+
+  .main-photo .husband {
+    font-size: 2rem;
+  }
+
+  .propose_photo {
+    margin-left: 40%;
+    margin-top: 15%;
+  }
+
+  .year_start {
+    font-size: 1.3rem;
+    margin-left: 13%;
+  }
+
+  .year_end {
+    font-size: 1.3rem;
+    margin-left: 57%;
+  }
+
+  .welcome {
+    margin-right: 25%;
+    font-size: 30px;
+  }
+
+  .thank {
+    font-size: 30px;
+  }
+
+  .mgk_home {
+    margin-left: 92%;
+    margin-top: 24%;
+  }
+
+  .first_icon {
+    margin-top: 15%;
+    margin-right: 55%;
+  }
+
+  .letseeP {
+    margin-right: 25%;
+  }
+
+  .main-photo .heartImage {
+    width: 2rem;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .main-photo .wife {
+    font-size: 2rem;
+  }
+
+  .main-photo .husband {
+    font-size: 2rem;
+  }
+
+  .final_photo {
+    margin-left: 40%;
+    margin-top: 20%;
+  }
+
+  .year_start {
+    font-size: 1.3rem;
+    margin-left: 13%;
+  text-shadow: 1px 1px gray;
+  }
+  
+  .year_end {
+    font-size: 1.3rem;
+    margin-left: 15%;
+      text-shadow: 1px 1px gray;
+  }
+
+  .welcome {
+    margin-right: 25%;
+    font-size: 30px;
+  }
+
+  .thank {
+    font-size: 30px;
+  }
+
+  .propose_photo {
+    margin-left: 38%;
+    margin-top: 15%;
+  }
+
+  .main-photo .heartImage {
+    width: 2rem;
+  }
+
+  .mgk_home {
+    margin-left: 92%;
+    margin-top: 25%;
+  }
+
+  .wedding h1 {
+    font-size: 1.2rem;
+    padding-left: 30px;
+    padding-right: 5px;
+    margin-top: 15%;
+  }
+
+  .letseeP {
+    font-size: 1rem;
+    margin-right: 35%;
+  }
+
+  .letsee img {
+    width: 40%;
+    margin-bottom: 5%;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .year_start {
+    margin-left: 13%;
+    font-size: 1.1rem;
+  }
+
+  .final_photo {
+    margin-left: 40%;
+    margin-top: 23%;
+  }
+
+  .intern_photo {
+    margin-left: 90%;
+    margin-top: 20%;
+  }
+
+  .propose_photo {
+    margin-left: 38%;
+    margin-top: 15%;
+  }
+
+  .mgk_home {
+    margin-left: 92%;
+    margin-top: 27%;
+  }
+
+  .year_end {
+    margin-left: 58;
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .year_start {
+    margin-left: 13%;
+    margin-top: 13%;
+    font-size: 1rem;
+  }
+
+  .mgk_home {
+    margin-left: 92%;
+    margin-top: 25%;
+  }
+
+  .year_end {
+    margin-left: 58%;
+    margin-top: 13%;
+    font-size: 1rem;
+  }
+
+  .welcome {
+    margin-right: 20%;
+    font-size: 30px;
+  }
+
+  .thank {
+    font-size: 30px;
+  }
+  
+  .letseeP {
+    margin-right: 23%;
+  }
+
+  .letsee img {
+    width: 40%;
+    margin-left: 40%;
+    margin-top: 0;
+  }
+}
