@@ -5,22 +5,23 @@ import Icon from '@mui/material/Icon';
 function App() {
 
   const images = [
-    "/images/1 (5).jpg",
-    "/images/1 (8).jpg",
-    "/images/1 (22).jpg",
-    "/images/1 (14).jpg",
-    "/images/1 (15).jpg",
-    "/images/1 (33).jpg",
-    "/images/1 (24).jpg",
-    "/images/1 (29).jpg",
-    "/images/1 (31).jpg",
-    "/images/1 (16).jpg",
-    "/images/1 (18).jpg",
-    "/images/1 (35).jpg",
+    "/images/1 (24).JPG",
+    "/images/1 (8).JPG",
+    "/images/1 (22).JPG",
+    "/images/1 (14).JPG",
+    "/images/1 (15).JPG",
+    "/images/1 (33).JPG",
+    "/images/1 (5).JPG",
+    "/images/1 (29).JPG",
+    "/images/1 (31).JPG",
+    "/images/1 (16).JPG",
+    "/images/1 (18).JPG",
+    "/images/1 (35).JPG",
   ]
 
   return (
     <div className="App">
+
       {/* <header className="App-header">
         <h1>Naung Yoe Moe Lwin & No No Yamin</h1>
       </header> */}
@@ -30,7 +31,7 @@ function App() {
             <h1 className='husband'> Naung Yoe </h1>
             <h1 className='wife'> No No </h1>
             <img className='heartImage' src={require('./images/heart.png')} alt={'heart image'} />
-            <img src={require('./images/Main Photo.jpg')} alt={`Couple Photo`} />
+            <img src={require('./images/mainphoto.jpg')} alt={`Couple Photo`} />
           </div>
         </section>
         <section>
@@ -38,7 +39,7 @@ function App() {
         </section>
         <section>
           <div className='wedding'>
-            <img src={require('./images/wedding.JPG')} alt={`Couple Photo`} />
+            <img src={require('./images/wedding.jpg')} alt={`Couple Photo`} />
             <h1>We're Married ! <br /> 12 - 4 - 2024 </h1>
           </div>
           <div className='year'>
@@ -48,7 +49,7 @@ function App() {
           <div className='Year0'>
             <div className="first-date">
               <img src={require('./images/first-date.jpg')} alt={`Couple Photo`} />
-              <img src={require('./images/Sign_day.PNG')} />
+              <img src={require('./images/Sign_day.jpg')} />
             </div>
           </div>
         </section>
@@ -78,7 +79,7 @@ function App() {
             We did it together - graduation as our relationship goals.
             <h4> Feb - 2020</h4>
           </p> <img className='final_photo' src={require('./images/final_photo.png')} />
-          <img className='final_img' src={require('./images/final_year.JPG')} />
+          <img className='final_img' src={require('./images/final_year.jpg')} />
         </section>
 
         <section className='mogok'>
@@ -92,7 +93,7 @@ function App() {
           <p> Say 'I Do' to a lifetime of love.
             <h4> 11 Jan - 2024</h4>
           </p><img className='propose_photo' src={require('./images/propose_photo.png')} />
-          <img className='pro_img' src={require('./images/propose.JPG')} />
+          <img className='pro_img' src={require('./images/propose.jpg')} />
         </section>
 
         <section className='ending'>
@@ -108,12 +109,12 @@ function App() {
         </div>
 
         <section className='kissing'>
-          <img src={require('./images/Kiss.jpg')} />
+          <img src={require('./images/kiss.jpg')} />
         </section>
 
-        <section>
+        <section> 
           <p className='thank'> We hope you enjoy celebrating with us and thank you for making our day so special !! </p>
-          <p className='powered'> This wedding website is powered by @Htet Aung</p>
+          <p className='powered'> This wedding website is powered by <a href='https://www.facebook.com/htetaung.lucifer' target='blank'>@Htet Aung</a></p>
         </section>
       </main>
     </div>
